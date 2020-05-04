@@ -10,6 +10,26 @@ class Game extends Component {
   constructor(props) {
     super(props);
     const valuesArray = this.makeNewQuestion();
+1
+import React, { Component } from 'react';
+2
+​
+3
+class Game extends Component {
+4
+  /*
+5
+  The constructor is a "special method for creating and initializing an object."
+6
+  (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
+7
+  Whenever an object is created with a `class`, the constructor is the first
+8
+  thing that runs.
+9
+  */
+10
+  constructor(props) {
     this.state = {
       value1: valuesArray[0],
       value2: valuesArray[1],
